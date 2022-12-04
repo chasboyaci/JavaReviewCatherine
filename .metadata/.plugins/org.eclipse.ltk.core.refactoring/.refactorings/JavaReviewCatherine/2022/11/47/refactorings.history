@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.neotech.review07&apos; to &apos;com.neotech.review07_Polymorphism&apos;&#x0A;- Original project: &apos;JavaReviewCatherine&apos;&#x0A;- Original element: &apos;JavaReviewCatherine/src/com.neotech.review07&apos;&#x0A;- Renamed element: &apos;JavaReviewCatherine/src/com.neotech.review07_Polymorphism&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.neotech.review07&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.neotech.review07" name="com.neotech.review07_Polymorphism" qualified="false" references="true" stamp="1668357291094" textual="false" version="1.0"/>
+</session>

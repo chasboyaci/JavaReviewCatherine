@@ -1,0 +1,48 @@
+package com.neotech.lesson33;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelIntro {
+
+	public static void main(String[] args) throws IOException {
+		
+	//where is the file that I want to read
+		
+	String filePath = System.getProperty("user.dir") + "/test_data/Test.xlsx";
+		
+	FileInputStream fis = new FileInputStream(filePath);
+
+	//Read the workbook (the whole excel file)
+	Workbook book = new XSSFWorkbook(filePath);
+	
+	//Access the sheet that you want 
+	Sheet sheet = book.getSheet("TestData");
+	
+	//Access a certain row
+	Row row = sheet.getRow(0);
+	
+	//Access a certain cell
+	Cell cell = row.getCell(1);
+	
+	//Getting the data from the cell
+	String info = cell.toString();
+	System.out.println(info); 
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

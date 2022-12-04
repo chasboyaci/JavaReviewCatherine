@@ -1,0 +1,36 @@
+package com.neotech.review09;
+
+
+import java.util.*;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		
+		//Map
+		//HashMap | LinkedHashMap | TreeMap | HashTable
+		//random order is printed 
+		
+		//map has two objects/pair called an entry
+		
+		Map<Integer, String> phoneBook = new HashMap<Integer, String>();
+		
+		//in Maps we use .put instead of .add 
+		//first one is the key and the second on is the value 
+		
+		phoneBook.put(1234567, "James Smith");
+		phoneBook.put(1234568, "Smith Jones");
+		phoneBook.put(1234569, "Bill Street");
+		phoneBook.put(1234561, "Julia Roberts");
+		
+		phoneBook.replace(1234568, "Ahmet");
+		
+		System.out.println(phoneBook);
+		
+		//Another way to replace 
+		phoneBook.put(1234567, "Catherine");
+		
+		System.out.println(phoneBook);
+	}
+
+}

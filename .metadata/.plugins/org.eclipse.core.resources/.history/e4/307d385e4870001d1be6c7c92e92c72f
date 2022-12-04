@@ -1,0 +1,24 @@
+package com.neotech.lesson31;
+
+
+import java.util.*;
+
+public class MapEntry {
+
+	public static void main(String[] args) {
+		
+		//January:31
+		//February:28
+		
+		Map<String, Integer> months = new LinkedHashMap<>();
+		
+		months.put("January", 31);
+		months.put("February", 28);
+		months.put("March", 31);
+		months.put("April", 30);
+		
+		
+		System.out.println("The size of the map is:  " + months.size());
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.neotech.lesson33;
+
+import java.util.Properties;
+
+public class Homework {
+
+	public static void main(String[] args) {
+		
+		//1. create a path to the file
+		
+		//we could use this but when sharing it with others it wont work for them
+		String path = "/Users/ahmetalihasboyaci/eclipse-workspace/JavaBasic4Catherine/src/com/neotech/lesson33/Homework.java";
+		
+		//to avoid file location issues
+		//user.dir shows the path of the file 
+		String projectPath = System.getProperty("user.dir");
+		System.out.println(projectPath);
+		
+		
+		String fullPath = projectPath + "/config/example.properties";
+		System.out.println(fullPath);
+		
+		
+		Properties p = new Properties();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

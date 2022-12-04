@@ -1,0 +1,27 @@
+package com.neotech.lesson31;
+
+
+import java.util.*;
+
+public class Homework2 {
+
+	public static void main(String[] args) {
+		
+		Map<String, String> countries = new TreeMap<>();
+		countries.put("France", "Paris");
+		countries.put("Kosovo", "Prishtina");
+		countries.put("Turkiye", "Ankara");
+		countries.put("USA", "DC");
+		countries.put("Albania", "Tirana");
+		countries.put("Italy", "Rome");
+		
+		
+		System.out.println(countries);
+		
+		
+		// map uses put instead of add 
+		
+
+	}
+
+}

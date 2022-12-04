@@ -1,0 +1,45 @@
+package com.neotech.lesson33;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Homework {
+
+	public static void main(String[] args) throws IOException {
+		
+	
+		
+		
+		//1. create a path to the file
+		
+		//we could use this but when sharing it with others it wont work for them
+		//String path = "/Users/ahmetalihasboyaci/eclipse-workspace/JavaBasic4Catherine/src/com/neotech/lesson33/Homework.java";
+		
+		//to avoid file location issues
+		//user.dir shows the path of the file 
+		String projectPath = System.getProperty("user.dir");
+		System.out.println(projectPath);
+		
+		
+		String fullPath = projectPath + "/configs/homework";
+		System.out.println(fullPath);
+		
+		//2. create an object to read data (FileInputStream)
+		FileInputStream fis = new FileInputStream(fullPath); //at first there will be an error. Right click and select "add throw"
+		
+		//3. load the data from the stream
+		Properties p = new Properties();
+		p.load(fis); //right click and select "add throw declaration"
+		
+		
+		//what is inside the object
+		System.out.println(p);
+		
+		//get parameters individually
+		
+		
+	}
+
+}

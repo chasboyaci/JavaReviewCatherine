@@ -1,0 +1,29 @@
+package com.neotech.review09;
+
+import java.util.*;
+
+
+public class WorldMap {
+
+	public static void main(String[] args) {
+		
+		Map<String, String> europe = new  TreeMap<>(); 
+		europe.put("Spain", "Madrid");
+		europe.put("Germany", "Berlin");
+		europe.put("Italy", "Rome");
+		
+		System.out.println(europe);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

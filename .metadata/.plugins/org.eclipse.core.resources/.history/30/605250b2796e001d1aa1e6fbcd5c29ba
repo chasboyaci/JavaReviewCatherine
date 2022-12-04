@@ -1,0 +1,31 @@
+package com.neotech.review09;
+
+
+import java.util.*; //command shift o to import than change it to java.util.*;
+
+public class CollectionDetails {
+
+	public static void main(String[] args) {
+		
+		//1.List preserves insertion order, BUT SET DOES NOT
+		//2. List contains duplicates, BUT SET contains UNIQUE objects 
+
+		//Collection is an interface 
+		//Collection framework ---All interfaces and implementations (Lists = ArrayList, LinkedSet) (Set = HashSet & LinkedHashSet)
+		//Collection Interface - OnlY ONE INTERFACE 
+		//Collections ---it is a helper/utility class
+		
+		Set<Integer> numbers = new HashSet<>();
+		
+		numbers.add(98);
+		numbers.add(18);
+		numbers.add(54);
+		numbers.add(34);
+		numbers.add(22);
+		numbers.add(95);
+		
+		System.out.println(numbers);
+		
+	}
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson19.Employee"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson19.Task2"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson22.B"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson23.CreditCard.Visa"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson23.CreditCard.AX"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.neotech.lesson24.OverloadingMainMethod"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+</qualifiedTypeNameHistroy>
